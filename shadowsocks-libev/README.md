@@ -1,6 +1,7 @@
-安装shadowsocks-libev
-====================
-
+shadowsocks-libev
+=================
+安装服务
+-------
 系统：CentOS 6+
 
 下载：wget https://raw.githubusercontent.com/xiyangdiy/shadowsocks/master/shadowsocks-libev/shadowsocks-libev.tar.gz
@@ -18,3 +19,14 @@
 重启：/etc/init.d/shadowsocks restart
 
 查看状态：/etc/init.d/shadowsocks status
+
+Google BBR魔改版加速
+-------------------
+（1）安装系统内核
+wget --no-check-certificate https://raw.githubusercontent.com/nanqinlang-tcp/tcp_nanqinlang/master/General/CentOS/bash/tcp_nanqinlang-1.3.2.sh && bash tcp_nanqinlang-1.3.2.sh
+选择:1
+重启:reboot
+
+（2）开启算法
+ bash tcp_nanqinlang-1.3.2.sh
+ 选择:2
