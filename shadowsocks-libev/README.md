@@ -6,7 +6,7 @@ shadowsocks-libev
 
 下载：wget https://raw.githubusercontent.com/xiyangdiy/shadowsocks/master/shadowsocks-libev/shadowsocks-libev.tar.gz
 
-解压：tar zxf shadowsocks-libev.tar.gz && cd shadowsocks-libev
+解压：tar zxf shadowsocks-libev.tar.gz
 
 安装：chmod +x shadowsocks-libev.sh &&  ./shadowsocks-libev.sh
 
