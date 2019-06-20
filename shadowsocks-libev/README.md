@@ -10,7 +10,7 @@ shadowsocks-libev
 
 安装：chmod +x shadowsocks-libev.sh &&  ./shadowsocks-libev.sh
 
-卸载：cd /root && ./shadowsocks-libev.sh uninstall
+卸载：./shadowsocks-libev.sh uninstall
 
 启动：/etc/init.d/shadowsocks start
 
