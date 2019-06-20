@@ -37,3 +37,5 @@ wget --no-check-certificate https://raw.githubusercontent.com/nanqinlang-tcp/tcp
 bash tcp_nanqinlang-1.3.2.sh
 
 选择:2
+
+选择:y
