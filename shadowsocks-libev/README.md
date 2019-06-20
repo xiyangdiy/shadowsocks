@@ -28,7 +28,7 @@ wget --no-check-certificate https://raw.githubusercontent.com/nanqinlang-tcp/tcp
 
 选择:1
 
-选择：y
+选择:y
 
 重启:reboot
 
