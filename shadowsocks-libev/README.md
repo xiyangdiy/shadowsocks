@@ -3,7 +3,7 @@
 
 系统：CentOS 6+
 
-下载：wget https://raw.githubusercontent.com/xiyangdiy/shadowsocks/master/shadowsocks-libev/shadowsocks-libev.tar.gz<br>
+下载：```wget https://raw.githubusercontent.com/xiyangdiy/shadowsocks/master/shadowsocks-libev/shadowsocks-libev.tar.gz```
 
 解压：tar zxf shadowsocks-libev.tar.gz
 
@@ -21,4 +21,4 @@
 
 ---------------------------------------
 #### 安装 wget
-```<font color=red>yum -y install wget</font>```
+<font color=red>yum -y install wget</font>
