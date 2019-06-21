@@ -20,7 +20,5 @@
 查看状态：/etc/init.d/shadowsocks status
 
 ---------------------------------------
-###### 安装wget
-```c++
-yum -y install wget
-```
+#### 安装wget
+`<yum -y install wget>`
