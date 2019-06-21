@@ -7,9 +7,9 @@
 
 **解压:** tar zxf shadowsocks-libev.tar.gz
 
-**安装:** chmod +x shadowsocks-libev.sh &&  ./shadowsocks-libev.sh
+**安装:** chmod +x shadowsocks-libev.sh &&  bash shadowsocks-libev.sh
 
-**卸载:** ./shadowsocks-libev.sh uninstall
+**卸载:** bash shadowsocks-libev.sh uninstall
 
 **启动:** /etc/init.d/shadowsocks start
 
@@ -19,7 +19,7 @@
 
 **查看状态:** /etc/init.d/shadowsocks status
 
----------------------------------------
----------------------------------------
+==========================================
+==========================================
 #### **安装 wget**
 ```yum -y install wget```
