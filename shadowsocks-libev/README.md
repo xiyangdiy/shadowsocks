@@ -19,3 +19,6 @@ shadowsocks-libev
 重启：/etc/init.d/shadowsocks restart
 
 查看状态：/etc/init.d/shadowsocks status
+
+###安装wget
+ yum -y install wget
