@@ -2,7 +2,7 @@
 
 ## 安装服务
 
-系统：CentOS 6+
+系统：CentOS 7
 
 下载：wget https://raw.githubusercontent.com/xiyangdiy/shadowsocks/master/shadowsocks-libev/shadowsocks-libev.tar.gz
 
