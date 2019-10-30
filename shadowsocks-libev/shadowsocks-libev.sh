@@ -56,7 +56,7 @@ disable_selinux(){
 print_info(){
     clear
     echo "##################################################"
-	echo "#                                                #"
+    echo "#                                                #"
     echo "#               Shadowsocks-libev                #"
     echo "#                                                #"
     echo "##################################################"
