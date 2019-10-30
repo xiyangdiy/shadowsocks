@@ -2,11 +2,11 @@
 
 ## 安装服务
 
-### 系统：CentOS 6+
+### 系统：CentOS 6/7
 
 #### 安装：
 ```
-wget https://github.com/xiyangdiy/shadowsocks/raw/master/shadowsocks-libev/shadowsocks-libev.sh && chmod +x shadowsocks-libev.sh &&  bash shadowsocks-libev.sh
+wget https://github.com/xiyangdiy/shadowsocks/raw/master/shadowsocks-libev/shadowsocks-libev.sh && chmod +x shadowsocks-libev.sh &&  bash shadowsocks-libev.sh install
 ```
 
 #### 卸载：
