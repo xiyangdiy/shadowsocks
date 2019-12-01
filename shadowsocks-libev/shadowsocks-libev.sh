@@ -249,6 +249,7 @@ pre_install(){
 #安装libsodium#
 install_libsodium() {
     wget https://raw.githubusercontent.com/xiyangdiy/shadowsocks/master/shadowsocks-libev/libsodium-1.0.17.tar.gz
+    sleep 2
     var=$(find ${cur_dir} -name 'libsodium*')
     libsodium_file=$(basename $var .tar.gz)
     if [ ! -f /usr/lib/libsodium.a ]; then
@@ -273,7 +274,8 @@ install_libsodium() {
 #安装mbedtls#
 install_mbedtls() {
     wget https://github.com/xiyangdiy/shadowsocks/raw/master/shadowsocks-libev/mbedtls-2.16.0-gpl.tgz
-	var=$(find ${cur_dir} -name 'mbedtls*')
+    sleep 2
+    var=$(find ${cur_dir} -name 'mbedtls*')
     mbedtls_file=$(basename $var -gpl.tgz)
     if [ ! -f /usr/lib/libmbedtls.a ]; then
         cd ${cur_dir}
