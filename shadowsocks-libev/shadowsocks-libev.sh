@@ -255,6 +255,7 @@ install_libsodium() {
     if [ ! -f /usr/lib/libsodium.a ]; then
         cd ${cur_dir}
         tar zxf ${libsodium_file}.tar.gz
+        sleep 2
         cd ${libsodium_file}
         ./configure --prefix=/usr && make && make install
         if [ $? -ne 0 ]; then
@@ -280,6 +281,7 @@ install_mbedtls() {
     if [ ! -f /usr/lib/libmbedtls.a ]; then
         cd ${cur_dir}
         tar xf ${mbedtls_file}-gpl.tgz
+        sleep 2
         cd ${mbedtls_file}
         make SHARED=1 CFLAGS=-fPIC
         make DESTDIR=/usr install
@@ -373,6 +375,7 @@ install_shadowsocks(){
     ldconfig
     cd ${cur_dir}
     tar zxf ${shadowsocks_libev_ver}.tar.gz
+    sleep 2
     cd ${shadowsocks_libev_ver}
     ./configure --disable-documentation
     make && make install
