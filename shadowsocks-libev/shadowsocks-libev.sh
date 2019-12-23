@@ -493,7 +493,7 @@ remove(){
         rm -rf ${shadowsocks_libev_ver} ${shadowsocks_libev_ver}.tar.gz
         rm -rf ${libsodium_file} ${libsodium_file}.tar.gz
         rm -rf ${mbedtls_file} ${mbedtls_file}-gpl.tgz
-        echo "        已撤销安装！"   		
+        echo "已撤销安装！"   		
 }
 
 # Initialization step
