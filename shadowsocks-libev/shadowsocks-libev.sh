@@ -367,6 +367,7 @@ install_shadowsocks(){
     install_libsodium
     install_mbedtls
     wget https://github.com/xiyangdiy/shadowsocks/raw/master/shadowsocks-libev/shadowsocks-libev-3.2.5.tar.gz
+    sleep 2
     wget https://raw.githubusercontent.com/xiyangdiy/shadowsocks/master/shadowsocks-libev/shadowsocks-libev
     sleep 2
     var=$(find ${cur_dir} -name 'shadowsocks-libev-*')
